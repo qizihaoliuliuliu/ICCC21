@@ -1,0 +1,40 @@
+the 1 time
+
+MDP iteration 5 time
+04-Jun-2021 12:06:26
+MDP iteration 10 time
+04-Jun-2021 12:06:39
+MDP iteration 15 time
+04-Jun-2021 12:06:50
+game state i=1
+04-Jun-2021 12:06:52
+game state i=2
+04-Jun-2021 12:06:54
+game state i=3
+04-Jun-2021 12:06:55
+game state i=4
+04-Jun-2021 12:06:56
+game state i=5
+04-Jun-2021 12:06:57
+game state i=6
+04-Jun-2021 12:06:58
+game state i=7
+04-Jun-2021 12:06:59
+game state i=8
+04-Jun-2021 12:07:00
+game state i=9
+04-Jun-2021 12:07:02
+game state i=10
+04-Jun-2021 12:07:03
+game state i=11
+04-Jun-2021 12:07:04
+game state i=12
+04-Jun-2021 12:07:04
+game state i=13
+04-Jun-2021 12:07:05
+game state i=14
+04-Jun-2021 12:07:06
+game state i=15
+04-Jun-2021 12:07:06
+game state i=16
+04-Jun-2021 12:07:07

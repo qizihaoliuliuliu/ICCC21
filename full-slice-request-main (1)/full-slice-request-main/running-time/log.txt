@@ -1,0 +1,300 @@
+the 1 time
+
+MDP iteration 5 time
+12-Jun-2021 16:50:06
+MDP iteration 10 time
+12-Jun-2021 16:50:49
+MDP iteration 15 time
+12-Jun-2021 16:51:34
+game state i=1
+12-Jun-2021 16:51:43
+game state i=2
+12-Jun-2021 16:51:47
+game state i=3
+12-Jun-2021 16:51:53
+game state i=4
+12-Jun-2021 16:51:56
+game state i=5
+12-Jun-2021 16:51:59
+game state i=6
+12-Jun-2021 16:52:04
+game state i=7
+12-Jun-2021 16:52:09
+game state i=8
+12-Jun-2021 16:52:14
+game state i=9
+12-Jun-2021 16:52:17
+game state i=10
+12-Jun-2021 16:52:20
+game state i=11
+12-Jun-2021 16:52:23
+game state i=12
+12-Jun-2021 16:52:25
+game state i=13
+12-Jun-2021 16:52:27
+game state i=14
+12-Jun-2021 16:52:29
+game state i=15
+12-Jun-2021 16:52:30
+game state i=16
+12-Jun-2021 16:52:31
+the 2 time
+
+MDP iteration 5 time
+12-Jun-2021 16:53:31
+MDP iteration 10 time
+12-Jun-2021 16:54:46
+MDP iteration 15 time
+12-Jun-2021 16:56:01
+game state i=1
+12-Jun-2021 16:56:16
+game state i=2
+12-Jun-2021 16:56:18
+game state i=3
+12-Jun-2021 16:56:21
+game state i=4
+12-Jun-2021 16:56:23
+game state i=5
+12-Jun-2021 16:56:26
+game state i=6
+12-Jun-2021 16:56:29
+game state i=7
+12-Jun-2021 16:56:31
+game state i=8
+12-Jun-2021 16:56:34
+game state i=9
+12-Jun-2021 16:56:37
+game state i=10
+12-Jun-2021 16:56:39
+game state i=11
+12-Jun-2021 16:56:42
+game state i=12
+12-Jun-2021 16:56:44
+game state i=13
+12-Jun-2021 16:56:47
+game state i=14
+12-Jun-2021 16:56:50
+game state i=15
+12-Jun-2021 16:56:52
+game state i=16
+12-Jun-2021 16:56:55
+game state i=17
+12-Jun-2021 16:56:57
+game state i=18
+12-Jun-2021 16:56:59
+game state i=19
+12-Jun-2021 16:57:01
+game state i=20
+12-Jun-2021 16:57:02
+game state i=21
+12-Jun-2021 16:57:03
+the 3 time
+
+MDP iteration 5 time
+12-Jun-2021 16:58:38
+MDP iteration 10 time
+12-Jun-2021 17:00:37
+MDP iteration 15 time
+12-Jun-2021 17:02:36
+game state i=1
+12-Jun-2021 17:03:01
+game state i=2
+12-Jun-2021 17:03:03
+game state i=3
+12-Jun-2021 17:03:06
+game state i=4
+12-Jun-2021 17:03:09
+game state i=5
+12-Jun-2021 17:03:12
+game state i=6
+12-Jun-2021 17:03:15
+game state i=7
+12-Jun-2021 17:03:17
+game state i=8
+12-Jun-2021 17:03:20
+game state i=9
+12-Jun-2021 17:03:23
+game state i=10
+12-Jun-2021 17:03:26
+game state i=11
+12-Jun-2021 17:03:28
+game state i=12
+12-Jun-2021 17:03:31
+game state i=13
+12-Jun-2021 17:03:33
+game state i=14
+12-Jun-2021 17:03:36
+game state i=15
+12-Jun-2021 17:03:38
+game state i=16
+12-Jun-2021 17:03:41
+game state i=17
+12-Jun-2021 17:03:43
+game state i=18
+12-Jun-2021 17:03:46
+game state i=19
+12-Jun-2021 17:03:49
+game state i=20
+12-Jun-2021 17:03:51
+game state i=21
+12-Jun-2021 17:03:54
+game state i=22
+12-Jun-2021 17:03:56
+game state i=23
+12-Jun-2021 17:03:58
+game state i=24
+12-Jun-2021 17:04:00
+game state i=25
+12-Jun-2021 17:04:01
+game state i=26
+12-Jun-2021 17:04:02
+the 4 time
+
+MDP iteration 5 time
+12-Jun-2021 17:06:19
+MDP iteration 10 time
+12-Jun-2021 17:09:14
+MDP iteration 15 time
+12-Jun-2021 17:12:20
+game state i=1
+12-Jun-2021 17:12:54
+game state i=2
+12-Jun-2021 17:12:57
+game state i=3
+12-Jun-2021 17:13:00
+game state i=4
+12-Jun-2021 17:13:02
+game state i=5
+12-Jun-2021 17:13:05
+game state i=6
+12-Jun-2021 17:13:07
+game state i=7
+12-Jun-2021 17:13:10
+game state i=8
+12-Jun-2021 17:13:13
+game state i=9
+12-Jun-2021 17:13:15
+game state i=10
+12-Jun-2021 17:13:18
+game state i=11
+12-Jun-2021 17:13:20
+game state i=12
+12-Jun-2021 17:13:23
+game state i=13
+12-Jun-2021 17:13:25
+game state i=14
+12-Jun-2021 17:13:28
+game state i=15
+12-Jun-2021 17:13:31
+game state i=16
+12-Jun-2021 17:13:34
+game state i=17
+12-Jun-2021 17:13:36
+game state i=18
+12-Jun-2021 17:13:39
+game state i=19
+12-Jun-2021 17:13:41
+game state i=20
+12-Jun-2021 17:13:44
+game state i=21
+12-Jun-2021 17:13:46
+game state i=22
+12-Jun-2021 17:13:49
+game state i=23
+12-Jun-2021 17:13:52
+game state i=24
+12-Jun-2021 17:13:54
+game state i=25
+12-Jun-2021 17:13:57
+game state i=26
+12-Jun-2021 17:14:00
+game state i=27
+12-Jun-2021 17:14:03
+game state i=28
+12-Jun-2021 17:14:05
+game state i=29
+12-Jun-2021 17:14:07
+game state i=30
+12-Jun-2021 17:14:08
+game state i=31
+12-Jun-2021 17:14:08
+the 5 time
+
+MDP iteration 5 time
+12-Jun-2021 17:17:15
+MDP iteration 10 time
+12-Jun-2021 17:21:15
+MDP iteration 15 time
+12-Jun-2021 17:25:07
+game state i=1
+12-Jun-2021 17:29:00
+game state i=2
+12-Jun-2021 17:29:03
+game state i=3
+12-Jun-2021 17:29:05
+game state i=4
+12-Jun-2021 17:29:08
+game state i=5
+12-Jun-2021 17:29:11
+game state i=6
+12-Jun-2021 17:29:13
+game state i=7
+12-Jun-2021 17:29:16
+game state i=8
+12-Jun-2021 17:29:18
+game state i=9
+12-Jun-2021 17:29:21
+game state i=10
+12-Jun-2021 17:29:23
+game state i=11
+12-Jun-2021 17:29:26
+game state i=12
+12-Jun-2021 17:29:28
+game state i=13
+12-Jun-2021 17:29:31
+game state i=14
+12-Jun-2021 17:29:33
+game state i=15
+12-Jun-2021 17:29:36
+game state i=16
+12-Jun-2021 17:29:38
+game state i=17
+12-Jun-2021 17:29:41
+game state i=18
+12-Jun-2021 17:29:43
+game state i=19
+12-Jun-2021 17:29:46
+game state i=20
+12-Jun-2021 17:29:48
+game state i=21
+12-Jun-2021 17:29:51
+game state i=22
+12-Jun-2021 17:29:54
+game state i=23
+12-Jun-2021 17:29:56
+game state i=24
+12-Jun-2021 17:29:59
+game state i=25
+12-Jun-2021 17:30:01
+game state i=26
+12-Jun-2021 17:30:04
+game state i=27
+12-Jun-2021 17:30:06
+game state i=28
+12-Jun-2021 17:30:09
+game state i=29
+12-Jun-2021 17:30:11
+game state i=30
+12-Jun-2021 17:30:14
+game state i=31
+12-Jun-2021 17:30:17
+game state i=32
+12-Jun-2021 17:30:19
+game state i=33
+12-Jun-2021 17:30:21
+game state i=34
+12-Jun-2021 17:30:23
+game state i=35
+12-Jun-2021 17:30:24
+game state i=36
+12-Jun-2021 17:30:24

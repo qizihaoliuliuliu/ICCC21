@@ -1,0 +1,17 @@
+%hold on!
+load full_reward_optimal.mat;
+load full_reward_Greedy.mat;
+load full_reward_MMF.mat;
+figure(1)
+len=length(full_reward_Greedy);
+iter=1:1:len;
+
+
+
+for i =1:len
+    reward_optimal=full_reward_optimal{i};
+    reward_Greedy=full_reward_Greedy{i};
+    reward_MMF=full_reward_MMF{i};
+    
+    
+end
