@@ -57,108 +57,108 @@ for i=1:length(value_iteration_special_state1)
 end
 
 
-% set(gca,'position',[0.15,0.19,0.8,0.75]);
-% set(gcf,'unit','normalized','position',[0.05,0.05,0.64,0.8]);
-% set(gcf, 'PaperPositionMode', 'manual');
-% set(gcf, 'PaperUnits', 'points');
-% set(gcf, 'PaperPosition', [0 0 720 540]);
-
-% figure(1)
-% p1=plot(iteration_times,value_iteration_special_state1);
-% %axis([1,30,0 800])
-% 
-% p1(1).Marker='o';
-% %p1(2).Marker='s';
-% 
-% p1(1).LineWidth=2;
-% p1(1).LineStyle='-';
-% p1(1).Marker='o';
-% p1(1).MarkerSize=15;
-% p1(1).Color='b';
-% %p1(2).LineWidth=2;
-% %p1(2).LineStyle='-';
-% %p1(2).Marker='s';
-% %p1(2).MarkerSize=15;
-% %p1(2).Color='b';
-% set(gca,'fontname','times') 
-% set(gca,'xtick',1:1:15);
-% axis([1,15,0 60])
-% set(gca,'fontsize',35')
-% grid on
-% 
-% %legend('State1','Location','southeast')
-% %title('the iteration of value state')
-% xlabel('The number of iterations')
-% ylabel('Value of state')
-% saveas(gca,"./Figure-state1/State1-iterationOfValueState.fig");
-% saveas(gca,"./Figure-state1/State1-iterationOfValueState.eps",'epsc' );
-% saveas(gca,"./Figure-state1/State1-iterationOfValueState.png");
-
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%figure 2
-%game iteration price change
-%choose state = State_Space{1,1}
-%choose first resource
-price_iteration=price_record{1,6};
-price_iteration_x_axis=[];
-for i=1:length(price_iteration)
-    price_iteration_x_axis=[price_iteration_x_axis,i];
-end
-
-networking_price_iteration=[];
-storage_price_iteration=[];
-computing_price_iteration=[];
-for i=1:length(price_iteration)
-    networking_price_iteration=[networking_price_iteration,price_iteration{i}(1)];
-    storage_price_iteration=[storage_price_iteration,price_iteration{i}(2)];
-    computing_price_iteration=[computing_price_iteration,price_iteration{i}(3)];
-    
-end
-
 set(gca,'position',[0.15,0.19,0.8,0.75]);
 set(gcf,'unit','normalized','position',[0.05,0.05,0.64,0.8]);
 set(gcf, 'PaperPositionMode', 'manual');
 set(gcf, 'PaperUnits', 'points');
 set(gcf, 'PaperPosition', [0 0 720 540]);
-figure(2)
-% ts1 = timeseries(networking_price_iteration, price_iteration_x_axis);
-% ts2 = timeseries(storage_price_iteration, price_iteration_x_axis);
-% ts3 = timeseries(computing_price_iteration, price_iteration_x_axis);
-% plot(ts1,ts2,ts3)
-p2=plot(price_iteration_x_axis,networking_price_iteration,...
-    price_iteration_x_axis,storage_price_iteration,...
-    price_iteration_x_axis,computing_price_iteration);
-p2(1).LineWidth=2;
-p2(1).LineStyle='-';
-p2(1).Marker='o';
-p2(1).MarkerSize=15;
-p2(1).Color='r';
-p2(2).LineWidth=2;
-p2(2).LineStyle='-';
-p2(2).Marker='s';
-p2(2).MarkerSize=15;
-p2(2).Color='k';
-p2(3).LineWidth=2;
-p2(3).LineStyle='-';
-p2(3).Marker='x';
-p2(3).Color='b';
-p2(3).MarkerSize=15;
-set(gca,'fontsize',22')
-grid on
-axis( [1 8 0.6 1.6] )
-set(gca,'xtick',1:1:9);
-set(gca,'fontname','times')
-%title('the iteration of price')
-xlabel('The number of iterations')
-ylabel('Price')
-legend('Networking','Storage','Computing','Location','southeast')
 
-saveas(gca,"./Figure-state1/State1-iterationOfPrice.fig");
-saveas(gca,"./Figure-state1/State1-iterationOfPrice.eps",'epsc' );
-saveas(gca,"./Figure-state1/State1-iterationOfPrice.png");
-% % 
-% % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% %figure 3
+figure(1)
+p1=plot(iteration_times,value_iteration_special_state1);
+%axis([1,30,0 800])
+
+p1(1).Marker='o';
+%p1(2).Marker='s';
+
+p1(1).LineWidth=2;
+p1(1).LineStyle='-';
+p1(1).Marker='o';
+p1(1).MarkerSize=15;
+p1(1).Color='b';
+%p1(2).LineWidth=2;
+%p1(2).LineStyle='-';
+%p1(2).Marker='s';
+%p1(2).MarkerSize=15;
+%p1(2).Color='b';
+set(gca,'fontname','times') 
+set(gca,'xtick',1:1:15);
+axis([1,15,0 60])
+set(gca,'fontsize',30')
+grid on
+
+%legend('State1','Location','southeast')
+%title('the iteration of value state')
+xlabel('The number of iterations')
+ylabel('Value of state')
+saveas(gca,"./Figure-state1/State1-iterationOfValueState.fig");
+saveas(gca,"./Figure-state1/State1-iterationOfValueState.eps",'epsc' );
+saveas(gca,"./Figure-state1/State1-iterationOfValueState.png");
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %figure 2
+% %game iteration price change
+% %choose state = State_Space{1,1}
+% %choose first resource
+% price_iteration=price_record{1,6};
+% price_iteration_x_axis=[];
+% for i=1:length(price_iteration)
+%     price_iteration_x_axis=[price_iteration_x_axis,i];
+% end
+% 
+% networking_price_iteration=[];
+% storage_price_iteration=[];
+% computing_price_iteration=[];
+% for i=1:length(price_iteration)
+%     networking_price_iteration=[networking_price_iteration,price_iteration{i}(1)];
+%     storage_price_iteration=[storage_price_iteration,price_iteration{i}(2)];
+%     computing_price_iteration=[computing_price_iteration,price_iteration{i}(3)];
+%     
+% end
+% 
+% set(gca,'position',[0.15,0.19,0.8,0.75]);
+% set(gcf,'unit','normalized','position',[0.05,0.05,0.64,0.8]);
+% set(gcf, 'PaperPositionMode', 'manual');
+% set(gcf, 'PaperUnits', 'points');
+% set(gcf, 'PaperPosition', [0 0 720 540]);
+% figure(2)
+% % ts1 = timeseries(networking_price_iteration, price_iteration_x_axis);
+% % ts2 = timeseries(storage_price_iteration, price_iteration_x_axis);
+% % ts3 = timeseries(computing_price_iteration, price_iteration_x_axis);
+% % plot(ts1,ts2,ts3)
+% p2=plot(price_iteration_x_axis,networking_price_iteration,...
+%     price_iteration_x_axis,storage_price_iteration,...
+%     price_iteration_x_axis,computing_price_iteration);
+% p2(1).LineWidth=2;
+% p2(1).LineStyle='-';
+% p2(1).Marker='o';
+% p2(1).MarkerSize=15;
+% p2(1).Color='r';
+% p2(2).LineWidth=2;
+% p2(2).LineStyle='-';
+% p2(2).Marker='s';
+% p2(2).MarkerSize=15;
+% p2(2).Color='k';
+% p2(3).LineWidth=2;
+% p2(3).LineStyle='-';
+% p2(3).Marker='x';
+% p2(3).Color='b';
+% p2(3).MarkerSize=15;
+% set(gca,'fontsize',30')
+% grid on
+% axis( [1 8 0.6 1.6] )
+% set(gca,'xtick',1:1:9);
+% set(gca,'fontname','times')
+% %title('the iteration of price')
+% xlabel('The number of iterations')
+% ylabel('Price')
+% legend('Networking','Storage','Computing','Location','southeast')
+% 
+% saveas(gca,"./Figure-state1/State1-iterationOfPrice.fig");
+% saveas(gca,"./Figure-state1/State1-iterationOfPrice.eps",'epsc' );
+% saveas(gca,"./Figure-state1/State1-iterationOfPrice.png");
+% % % 
+% % % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
 % X_iteration=X_recourse_record{1,6};
 % X_iteration_x_axis=[];
 % for i=1:length(X_iteration)
@@ -174,13 +174,13 @@ saveas(gca,"./Figure-state1/State1-iterationOfPrice.png");
 %     computing_X_iteration=[computing_X_iteration,X_iteration{i}(3)]; 
 % end
 % 
+% 
 % set(gca,'position',[0.15,0.19,0.8,0.75]);
 % set(gcf,'unit','normalized','position',[0.05,0.05,0.64,0.8]);
 % set(gcf, 'PaperPositionMode', 'manual');
 % set(gcf, 'PaperUnits', 'points');
 % set(gcf, 'PaperPosition', [0 0 720 540]);
-% 
-% 
+% figure(3)
 % p3=plot(X_iteration_x_axis,networking_X_iteration,...
 %     X_iteration_x_axis,storage_X_iteration,...
 %     X_iteration_x_axis,computing_X_iteration);
@@ -206,6 +206,7 @@ saveas(gca,"./Figure-state1/State1-iterationOfPrice.png");
 % %title('the iteration of x')
 % xlabel('The number of iterations')
 % ylabel('$x_{i,j,z}(t)$','Interpreter','LaTex')
+% set(gca,'xtick',1:1:9);
 % set(gca,'fontname','times') 
 % 
 % legend('Networking','Storage','Computing','Location','northeast')
